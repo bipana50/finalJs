@@ -242,7 +242,7 @@ Library = new Library();
             case 'aw': 
             
             txtSplitBtn.addEventListener('click', function(){
-                Library.animateWords('#para', 0.6, 0.07);
+                Library.animateWords('#para1', 0.6, 0.07);
         
             });
             break;
@@ -250,7 +250,7 @@ Library = new Library();
             case 'swa': 
             
             txtSplitBtn.addEventListener('click', function(){
-                Library.splitWords('#para', 'option1');
+                Library.splitWords('#para2', 'option1');
         
             });
             break;
@@ -259,7 +259,7 @@ Library = new Library();
             case 'swb': 
             
             txtSplitBtn.addEventListener('click', function(){
-                Library.splitWords('#para', 'option2');
+                Library.splitWords('#para3', 'option2');
         
             });
             break;
@@ -267,7 +267,7 @@ Library = new Library();
             case 'swc': 
             
             txtSplitBtn.addEventListener('click', function(){
-                Library.splitWords('#para', 'option3');
+                Library.splitWords('#para4', 'option3');
         
             });
             break;
