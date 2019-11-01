@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>Animation Lib</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/library.js"></script>
+    </head>
+    <body>
+
+        <div id="static-Wrapper">
+            <div id="static-elem">Animation Library</div>
+        </div>
+        <button class="reposition" onclick="reposition()">Reposition</button>
+        <select id="first-selector">
+            
+            <option value="">Properties to Change</option>
+            <option value="e">Example</option>
+            <option value="l">Left</option>
+            <option value="r">Right</option>
+            <option value="t">Top</option>
+            <option value="o">Opacity</option>             
+            <option value="b">Bottom</option>             
+            <option value="bg">BackgroundColor</option>
+            <option value="w">Width</option>             
+            <option value="h">Height</option>             
+                   
+        </select>
+        <ul class="first-ul">
+            <li><button class="tweento">Tween To</button></li>
+            <li><button class="tweenfrom">Tween From</button></li>
+        </ul>
+
+            <ul class= "ease clearfix">
+                <li class="float-left clearfix">
+                    <img src="images/easeinexpo.png" class="float-left">
+                    <div class="float-left" id="onea"></div>
+                </li>
+                <li class="float-left clearfix">
+                    <img src="images/easeoutexpo.png" class="float-left">
+                    <div class="float-left" id="oneb"></div>
+                </li>
+                <li class="float-left clearfix">
+                    <img src="images/easeinoutexpo.png" class="float-left">
+                    <div class="float-left" id="onec"></div>
+                </li>
+                <li class="float-left clearfix">
+                    <img src="images/easeinback.png" class="float-left">
+                    <div class="float-left" id="twoa"></div>
+                </li>
+                <li class="float-left clearfix">
+                    <img src="images/easeoutback.png" class="float-left">
+                    <div class="float-left" id="twob"></div>
+                </li>
+                <li class="float-left clearfix">
+                    <img src="images/easeinoutback.png" class="float-left">
+                    <div class="float-left" id="twoc"></div>
+                </li>
+                <li class="float-left clearfix">
+                    <img src="images/easeinbounce.png" class="float-left">
+                    <div class="float-left" id="threea"></div>
+                </li>
+                <li class="float-left clearfix">
+                    <img src="images/easeoutbounce.png" class="float-left">
+                    <div class="float-left" id="threeb"></div>
+                </li>
+                <li class="float-left clearfix">
+                    <img src="images/easeinoutbounce.png" class="float-left">
+                    <div class="float-left" id="threec"></div>
+                </li>
+                <li class="float-left clearfix">
+                    <img src="images/easeinelas.png" class="float-left">
+                    <div class="float-left" id="foura"></div>
+                </li>
+                <li class="float-left clearfix">
+                    <img src="images/easeoutelas.png" class="float-left">
+                    <div class="float-left" id="fourb"></div>
+                </li>
+                <li class="float-left clearfix">
+                    <img src="images/easeinoutelas.png" class="float-left">
+                    <div class="float-left" id="fourc"></div>
+                </li>
+
+            </ul>
+        <div>
+        <div class="imgsplit-wrap">
+            <img src="images/splitimg2.jpg" id="image">   
+        </div>
+        <div class="imgsplit-btn">
+            <button>Split Image</button>
+        </div>
+        <select id="second-selector">
+            <option value="">Number of Splits</option>
+            <option value="25">25</option>
+            <option value="15">15</option>
+            <option value="50">50</option>
+            <option value="75">75</option>
+            <option value="100">100</option>
+        </select>
+        </div>
+        
+        <div class="txt-anim">
+            <div class="txtsplit-btn">
+                    <button>Animate Text</button>
+            </div>
+            <select id="third-selector">
+                    <option value="">Options</option>
+                    <option value="al">Animate Letters</option>
+                    <option value="aw">Animate Words</option>
+                    <option value="swa">Split Words (option1)</option>
+                    <option value="swb">Split Words (option2)</option>
+                    <option value="swc">Split Words (option3)</option>
+            </select>
+            <p id="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        
+        </div>
+
+        <script src="js/main.js">
+        </script>
+    </body>
+</html>

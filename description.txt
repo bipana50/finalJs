@@ -1,0 +1,43 @@
+Library.tweenTo( DOM element, duration in seconds, {CSS properties})
+    
+    CSS properties: top, left, bottom, right, width, height, opacity, backgroundColor
+
+    
+Library.tweenFrom( DOM element, duration in secs, {CSS properties}); 
+    
+    CSS properties: top, left, bottom, right, width, height, opacity, backgroundColor
+   
+Library.ease( DOM element, duration in secs, {CSS properties}, easingFunc)  
+
+    CSS properties: top, left, bottom, right, width, height, opacity, backgroundColor
+
+    easing-functions: easeInExpo, easeOutExpo, easeInOutExpo
+                      easeInBounce, easeOutBounce, easeInOutBounce
+                      easeInElastic, easeOutElastic, easeInOutElastic
+                      easeInBack, easeOutBack, easeInOutBack
+
+
+Library.sliceImg( DOM element, number of slices, transformOrigin);
+     
+    number of slices: positive integer
+    transformOrigin: left, bottom, right, top 
+
+Library.animateLetters( DOM element, timeInterval, Delay)
+    timeInterval : seconds
+    Delay : seconds
+
+
+Library.animateWords( DOM element, timeInterval, Delay)
+    
+    timeInterval : seconds
+    Delay : seconds
+
+
+Library.splitWords( DOM element, option)
+    
+    option: option1, option2, option3    
+
+    
+                      
+
+
